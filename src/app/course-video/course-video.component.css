@@ -1,0 +1,170 @@
+.course-video{
+    /* background: url(/assets/img8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    padding-bottom: 40px;
+}
+.content{
+    width:90vw;
+    margin: auto;
+   
+}
+.icons{
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow{
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    cursor:pointer;
+}
+.ellipsis{
+    color:gray;
+    cursor: pointer;
+}
+.course-image{
+    cursor: pointer;
+    width:full;
+    height:25vh;
+    border-radius: 10px;
+    background: url(/assets/img7.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+}
+.course-image p{
+    background: white;
+    height: max-content;
+    padding: 5px 8px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+.bookmark{
+    background: white;
+    border-radius: 50%;
+    height: max-content;
+    height:32px;
+    width:32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    border:1px solid rgb(216, 214, 214);
+    padding: 5px 8px;
+    display:flex;
+    width: max-content;
+    border-radius: 25px;
+    align-items: center;
+    margin: 20px 0;
+}
+.logo img{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 7px;
+}
+.logo p{
+    font-size: 15px;
+}
+.star{
+    color: gold;
+    margin-right: 7px;
+}
+.heading{
+    margin-bottom: 20px !important;
+}
+/* .text-four{
+    margin-bottom: 20px;
+} */
+.weeks{
+    background: rgba(255, 255, 255, 0.15);
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 20px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding:0 10px;
+    margin-bottom: 20px;
+}
+.week{
+    color:gray;
+    transform: all 0.2s ease-in-out;
+    width:25%;
+    padding:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.week:hover{
+    color: black;
+    font-weight: 600;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+}
+.text-five{
+    height: 30%;
+    align-items: center;
+    display: flex;
+}
+.text-three{
+    margin-bottom: 15px;
+}
+.play-details{
+    display:flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.play{
+    font-size: 12px;
+    margin-right: 4px;
+}
+    
+.play-video{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.lesson-card{
+    border:1px solid rgb(206, 200, 200);
+    border-radius: 10px;
+    width: 100%;
+    padding:10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.start{
+    width: 100%;
+    background: black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    height: 50px;
+    cursor:pointer;
+    transition: all 250ms ease-in-out;
+}
+.start:hover{
+    border: 1px solid black;
+    background: transparent;
+    color:black
+}

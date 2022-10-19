@@ -1,0 +1,102 @@
+.course-detail{
+    width:90vw;
+    margin: auto;
+}
+.icons{
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow{
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    cursor:pointer;
+}
+.ellipsis{
+    color:gray;
+    cursor: pointer;
+}
+.course-image{
+    cursor: pointer;
+    width:full;
+    height:25vh;
+    border-radius: 10px;
+    background: url(/assets/img7.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+}
+.course-image p{
+    background: white;
+    height: max-content;
+    padding: 5px 8px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+.bookmark{
+    background: white;
+    border-radius: 50%;
+    height: max-content;
+    height:32px;
+    width:32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    border:1px solid rgb(216, 214, 214);
+    padding: 5px 8px;
+    display:flex;
+    width: max-content;
+    border-radius: 25px;
+    align-items: center;
+}
+.logo img{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 7px;
+}
+.logo p{
+    font-size: 15px;
+}
+.about{
+    margin: 28px 0;
+}
+.text-five{
+    margin-bottom: 10px;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+.enroll{
+    width: 100%;
+    background: black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    height: 50px;
+    cursor:pointer;
+    transition: all 250ms ease-in-out;
+}
+.enroll:hover{
+    border: 1px solid black;
+    background: transparent;
+    color:black
+}

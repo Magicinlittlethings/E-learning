@@ -1,0 +1,32 @@
+.icons {
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    background: black;
+    padding: 15px 20px;
+    position: fixed;
+    bottom: 25px;
+    width: 85vw;
+    transform: translateX(-50%);
+    left: 50%;
+    cursor: pointer;
+  }
+  .icon__group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition:all 250ms ease-in-out;
+  }
+  /* .icon__group:hover {
+    color: #2667ff !important;
+  } */
+  .icon{
+    font-size: clamp(17px, 2.5vw, 22px);
+    color:white;
+  }
+  .icon__title {
+    font-size: clamp(12px, 2.5vw, 16px);
+    color: rgb(163, 163, 163);
+  }

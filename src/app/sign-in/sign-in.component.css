@@ -1,0 +1,40 @@
+.splash-screen{
+    height: 100%;
+    width: 100%;
+
+}
+.top-container{
+    height: 45vh;
+    width: 100%;
+}
+.bottom-container{
+    height: 55vh;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+input{
+    padding: 10px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 300px;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.form-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,148 @@
+
+.top-section{
+    height: 30vh;
+    background: rgb(223, 222, 222);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.image{
+    height:40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border:2.5px solid white;
+    background-position: center;
+}
+.settings-icon{
+   
+    color:black;
+    
+
+}
+.settings-container{
+    background: white;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width:40px;
+    font-size: 20px;
+}
+.content{
+    width:90%;
+    margin: auto;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.text-one{
+    font-size: clamp(12px, 2.5vw, 15px);
+    margin-bottom: 10px;
+}
+.text-two{
+    font-size:clamp(20px, 2.5vw,25px);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.search-container{
+    height:55px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding:10px;
+    background: white;
+}
+input{
+    border: none;
+    background: transparent;
+    outline:none;
+    width: 100%;
+    
+}
+.search-icon{
+   
+    font-size: 14px;
+    color:gray;
+    margin-right: 12px;
+}
+.heading{
+    display:flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.ellipsis{
+    color:gray;
+    font-size: 21px;
+    cursor:pointer;
+}
+.star{
+    color: gold;
+    margin-right: 7px;
+}
+.card{
+    border:1px solid rgb(206, 200, 200);
+    border-radius: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding:10px;
+    height: 140px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.card-image{
+    height: 100%;
+    width: 100%;
+}
+.card-image img{
+    height: 110px;
+    border-radius: 5px;
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.text-four{
+    height:20%;
+    align-items: center;
+    display: flex;
+}
+.text-five{
+    height: 30%;
+    align-items: center;
+    display: flex;
+}
+.progress{
+    display:flex;
+    align-items: center;
+    height: 30%;
+}
+.progress-bar{
+    width:67%;
+    height:2.5px;
+    background: gray;
+    border-radius: 10px;
+    position: relative;
+}
+.progress-percentage{
+    width:25%;
+    font-size: 13px;
+    display: flex;
+    justify-content: end;
+}
+.progress-bar::before{
+    content: '';
+    position: absolute;
+    height:100%;
+    width:60%;
+    top:0;
+    left:0;
+    border-radius: 10px;
+    background: black;
+}

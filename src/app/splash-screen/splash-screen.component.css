@@ -1,0 +1,19 @@
+.splash-screen{
+    height: 100%;
+    width: 100%;
+
+}
+.top-container{
+    height: 55vh;
+    width: 100%;
+}
+.bottom-container{
+    height: 45vh;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
